@@ -1,0 +1,26 @@
+/* impostazioni base */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Open Sans',sans-serif;
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/******************
+header
+***************** */
+
+/******************
+*********** main */
+
+/*****************
+******** footer */
+
+/* utility */
