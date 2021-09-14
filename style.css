@@ -53,12 +53,14 @@ header
 .contenitore1{
     margin: auto;
     width: 90%;
-    /* margin-top:; */
 }
 h1{
     font-size: 4.5rem;
     padding-top: 4.5rem;
     padding-bottom: 2rem;
+}
+.contenitore1 .row{
+    padding-top: 2rem;
 }
 .contenitore1 p{
     margin-bottom: 2rem;
@@ -69,7 +71,7 @@ h1{
 .arrow{
     font-size: 3rem;
     margin-top: 2rem;
-    padding-bottom: 8rem;
+    padding-bottom: 5rem;
 }
 .uno{
     width: 30%;
@@ -84,12 +86,12 @@ h1{
 }
 .img1{
     position: absolute; 
-    top: -5.2rem;
+    top: 0rem;
     left: 5rem;  
     z-index: 1;
 }
 .img1 > img{
-    width: 45rem;
+    width: 50rem;
 }
 /* buisness_plane */
 .contenitore2{
