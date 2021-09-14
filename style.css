@@ -17,21 +17,42 @@ body{
 /******************
 header
 ***************** */
-.navbar div{
+.navbar div,.partner div{
     width: 50%;
 }
 #site_header{
     position: fixed;
     width: 100%;
+    top: 0;
+    left: 0;
 }
 /******************
 *********** main */
+
+/* hero_image */
+.contenitore1{
+    /* margin-top:; */
+}
+/* buisness_plane */
+.contenitore2{
+    width: 80%;
+    margin: auto;
+}
+.small{
+    width: 32.78%;
+    margin: 0 .2rem;
+}
+.large{
+    width: 100%;
+    margin-top: 1rem;
+}
+/* partner */
 
 /*****************
 ******** footer */
 
 /* utility */
-#site_header div{
+#site_header div,.small,.large,.img_txt div{
     float: left;
 }
 .txt_end{
@@ -47,4 +68,24 @@ header
 }
 .debug .navbar div:first-child{
     background-color: blue;
+}
+.debug .contenitore1{
+    background-color: cornflowerblue;
+    height: 40rem;
+}
+.debug .small{
+    background-color: darkblue;
+    height: 30rem;
+}
+.debug .large{
+    height: 10rem;
+    background-color: darkolivegreen;
+}
+.debug h2{
+    height: 7rem;
+    background-color: darkorange;
+}
+.debug .partner div{
+    background-color: darkorchid;
+    height: 5rem;
 }
