@@ -17,14 +17,27 @@ body{
 /******************
 header
 ***************** */
-.navbar div,.partner div{
-    width: 50%;
-}
 #site_header{
     position: fixed;
     width: 100%;
     top: 0;
     left: 0;
+    font-size: .79rem;
+}
+.sx,.dx{
+    text-align: center;
+    width: 45%;
+}
+.dx{
+    float: right;
+}
+.sx div,.dx div{
+    width: 25%;
+    line-height: 4rem;
+}
+.sx img{
+    width: 80%;
+    padding-top: 1.3rem;
 }
 /******************
 *********** main */
@@ -52,13 +65,18 @@ header
 ******** footer */
 
 /* utility */
-#site_header div,.small,.large,.img_txt div{
+.sx,.small,.large,.img_txt div,.sx div,.dx div{
     float: left;
 }
 .txt_end{
     text-align: end;
 }
-
+.img_txt div{
+    width: 50%;
+}
+.sx{
+    text-align: center;
+}
 /* debug class */
 .debug .navbar div{
     height: 5rem;
@@ -85,7 +103,8 @@ header
     height: 7rem;
     background-color: darkorange;
 }
-.debug .partner div{
+.debug .img_txt div{
     background-color: darkorchid;
-    height: 5rem;
+    height: 15rem;
+    
 }
