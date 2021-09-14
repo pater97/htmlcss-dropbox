@@ -25,6 +25,7 @@ header
     left: 0;
     font-size: .78rem;
     background-color: white;
+    z-index: 1000;
 }
 .sx,.dx{
     text-align: center;
@@ -60,7 +61,35 @@ h1{
     padding-bottom: 2rem;
 }
 .contenitore1 p{
+    margin-bottom: 2rem;
+}
+.last_txt_hero{
+    margin: 1rem 0;
+}
+.arrow{
+    font-size: 3rem;
+    margin-top: 2rem;
+    padding-bottom: 8rem;
+}
+.uno{
     width: 30%;
+}
+.due{
+    width: 70%;
+}
+.image{
+    position: relative;
+    top:0;
+    left:0;
+}
+.img1{
+    position: absolute; 
+    top: -5.2rem;
+    left: 5rem;  
+    z-index: 1;
+}
+.img1 > img{
+    width: 45rem;
 }
 /* buisness_plane */
 .contenitore2{
@@ -81,7 +110,7 @@ h1{
 ******** footer */
 
 /* utility */
-.sx,.small,.large,.img_txt div,.sx div,.dx div{
+.sx,.small,.large,.img_txt div,.sx div,.dx div,.colonna{
     float: left;
 }
 .blue_btn{
