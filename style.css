@@ -138,7 +138,7 @@ h1{
     margin: 2rem 0;
 }
 .blue_link{
-    color: blue;
+    color: #0061FF;
     text-decoration: underline;
 }
 .large{
@@ -150,6 +150,9 @@ h1{
     margin-bottom: 3rem;
     width: 3rem;
     border: 1px solid lightgrey;
+}
+.checklist li{
+    line-height: 2rem;
 }
 /* partner */
 
@@ -173,7 +176,7 @@ a{
     width: 50%;
 }
 .blue_bord{
-    border: 3px solid blue;
+    border: 3px solid #0061FF;
 }
 .center{
     text-align: center;
@@ -183,6 +186,11 @@ a{
     margin-top: 1rem;
     margin-bottom: 3rem;
 }
+.fa-check{
+    color: #0061FF;
+    margin-left: -1rem;
+}
+
 
 /* debug class */
 /* .debug .navbar div{
