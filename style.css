@@ -115,18 +115,41 @@ h1{
 .buisness_plane span{
     margin-right: 1rem;
 }
-.small div{
+.small .bordo{
     border: 1px solid lightgrey;
-    padding: .5rem 0;
+    padding: .5rem 2rem;
+}
+.bordo h3{
+    margin: 1rem 0;
+    font-size: 1.5rem;
 }
 .small{
     width: 33%;
-    text-align: center;
     padding:0 1rem;
+}
+.buisness_tab ul{
+    list-style:none;
+}
+.buisness_tab li{
+    margin: 1.5rem 0;
+    font-size: .9rem;
+}
+.bordo .bottone{
+    margin: 2rem 0;
+}
+.blue_link{
+    color: blue;
+    text-decoration: underline;
 }
 .large{
     width: 100%;
     margin-top: 1rem;
+}
+.buisness_tab hr{
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+    width: 3rem;
+    border: 1px solid lightgrey;
 }
 /* partner */
 
@@ -151,6 +174,14 @@ a{
 }
 .blue_bord{
     border: 3px solid blue;
+}
+.center{
+    text-align: center;
+}
+.grey{
+    color: grey;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
 }
 
 /* debug class */
