@@ -125,7 +125,6 @@ h1{
     font-size: 1.5rem;
 }
 .small{
-    width: 33.3%;
     padding:0 1rem;
 }
 .buisness_tab{
@@ -163,12 +162,23 @@ h1{
     line-height: 2rem;
 }
 /* partner */
-
+.partner{
+    margin: 8rem 0;
+}
+.partner img{
+    width: 100%;
+}
+.partner .txt{
+    padding: 3rem;
+}
+.partner p{
+    margin: 2rem 0;
+}
 /*****************
 ******** footer */
 
 /* utility */
-.sx,.small,.large,.img_txt div,.sx div,.dx div,.col_30,.col_70{
+.sx,.small,.large,.sx div,.dx div,.col_30,.col_70,.col_50,.col_33{
     float: left;
 }
 .blue_btn{
@@ -176,18 +186,25 @@ h1{
     padding: .3rem 1rem;
     color: white;
 }
+.grey_btn{
+    padding: .3rem 1rem;
+    border: 1px solid black;
+}
+.col_33{
+    width: 33.3%;
+}
 .col_30{
     width: 30%;
 }
 .col_70{
     width: 70%;
 }
+.col_50{
+    width: 50%;
+}
 a{
     text-decoration: none;
     color: black;
-}
-.img_txt div{
-    width: 50%;
 }
 .blue_bord{
     border: 3px solid #0061FF;
@@ -205,36 +222,3 @@ a{
     color: #0061FF;
     margin-left: -1rem;
 }
-
-
-/* debug class */
-/* .debug .navbar div{
-    height: 5rem;
-}
-.debug .navbar div:last-child{
-    background-color: blueviolet;
-}
-.debug .navbar div:first-child{
-    background-color: blue;
-}
-.debug .contenitore1{
-    background-color: cornflowerblue;
-    height: 40rem;
-}
-.debug .small{
-    background-color: darkblue;
-    height: 30rem;
-}
-.debug .large{
-    height: 10rem;
-    background-color: darkolivegreen;
-}
-.debug h2{
-    height: 7rem;
-    background-color: darkorange;
-}
-.debug .img_txt div{
-    background-color: darkorchid;
-    height: 15rem;
-    
-} */
