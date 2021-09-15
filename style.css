@@ -203,11 +203,19 @@ h1{
 .team_soci .blue_link{
     font-size: .8rem;
 }
+/* aziende socie */
+.aziende_socie .col_50{
+    position: relative;
+    height: 10rem;
+}
+#middle{
+    height: 20rem;
+}
 /*****************
 ******** footer */
 
 /* utility */
-.sx,.small,.large,.sx div,.dx div,.col_30,.col_70,.col_50,.col_33{
+.sx,.small,.large,.sx div,.dx div,.col_30,.col_70,.col_50,.col_33,.col_25{
     float: left;
 }
 .blue_btn{
@@ -231,6 +239,9 @@ h1{
 .col_50{
     width: 50%;
 }
+.col_25{
+    width: 25%;
+}
 a{
     text-decoration: none;
     color: black;
@@ -250,4 +261,32 @@ a{
 .fa-check{
     color: #0061FF;
     margin-left: -1rem;
+}
+/* colori aziende .aziende_socie */
+.green{
+    background-color: #A2D39B;
+}
+.dark_red{
+    background-color: #61082B;
+}
+.sky_blue{
+    background-color: #0093CE;
+}
+.light_red{
+    background-color: #FF1C1C;
+}
+.soft_grey{
+    background-color: #F5F5F5;
+}
+.red{
+    background-color: #D5001F;
+}
+.soft_blue{
+    background-color: #B4D0E7;
+}
+.dark_blue{
+    background-color: #0D2481;
+}
+.yellow{
+    background-color: #FFD830;
 }
