@@ -17,6 +17,9 @@ body{
     width: 70%;
     margin: 10rem auto;
 }
+/* html{
+    scroll-behavior: smooth;
+} */
 /******************
 header
 ***************** */
@@ -76,12 +79,7 @@ h1{
     margin-top: 2rem;
     padding-bottom: 5rem;
 }
-.uno{
-    width: 30%;
-}
-.due{
-    width: 70%;
-}
+
 .image{
     position: relative;
     top:0;
@@ -112,10 +110,13 @@ h1{
     vertical-align: middle;
     border: 1px solid lightgrey;
 }
-.buisness_plane span{
+.buisness_plane .scelta{
     margin-right: 1rem;
 }
-.small .bordo{
+.small span{
+    margin-left: -1rem;
+}
+.bordo{
     border: 1px solid lightgrey;
     padding: .5rem 2rem;
 }
@@ -124,8 +125,11 @@ h1{
     font-size: 1.5rem;
 }
 .small{
-    width: 33%;
+    width: 33.3%;
     padding:0 1rem;
+}
+.buisness_tab{
+    margin: 0 -1rem;
 }
 .buisness_tab ul{
     list-style:none;
@@ -144,6 +148,10 @@ h1{
 .large{
     width: 100%;
     margin-top: 1rem;
+    padding: 0 1rem;
+}
+.large .col_30{
+    padding-top: 1.5rem;
 }
 .buisness_tab hr{
     margin-top: 1.5rem;
@@ -160,13 +168,19 @@ h1{
 ******** footer */
 
 /* utility */
-.sx,.small,.large,.img_txt div,.sx div,.dx div,.colonna{
+.sx,.small,.large,.img_txt div,.sx div,.dx div,.col_30,.col_70{
     float: left;
 }
 .blue_btn{
     background-color: #0061FF;
     padding: .3rem 1rem;
     color: white;
+}
+.col_30{
+    width: 30%;
+}
+.col_70{
+    width: 70%;
 }
 a{
     text-decoration: none;
@@ -185,6 +199,7 @@ a{
     color: grey;
     margin-top: 1rem;
     margin-bottom: 3rem;
+    font-size: .9rem;
 }
 .fa-check{
     color: #0061FF;
