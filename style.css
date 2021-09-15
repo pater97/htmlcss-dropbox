@@ -13,7 +13,7 @@ body{
     display: table;
     clear: both;
 }
-.macrocontenitore{
+.macrocontenitore,.question{
     width: 70%;
     margin: auto;
     margin-top: 10rem;
@@ -251,6 +251,22 @@ h1{
     background-color: white;
     color: black;
     padding: .5rem 3rem;
+}
+/* question */
+.question h2{
+    font-size: 2rem;
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: 3rem;
+}
+.question div{
+    padding: 2.5rem 0;
+    border-bottom: 1px solid lightgray;
+}
+.question h4{
+    display:inline-block;
+}
+.question span{
+    float: right;
 }
 /*****************
 ******** footer */
