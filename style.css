@@ -58,9 +58,9 @@ header
     background-color: #B4D0E7;
     margin-top: 4rem;
 }
-.contenitore1{
+.contenitore1,.foot{
     margin: auto;
-    width: 90%;
+    width: 85%;
 }
 h1{
     font-size: 4.5rem;
@@ -270,9 +270,32 @@ h1{
 }
 /*****************
 ******** footer */
-
+footer,footer a{
+    background-color: black;
+    color: white;
+}
+.foot{
+    padding-top: 8rem;
+    margin-top: 8rem;
+}
+.foot h2{
+    padding-bottom: 1.5rem;
+}
+.col_20 div{
+    line-height: 2rem;
+}
+.lenguage{
+    padding-top: 8rem;
+}
+.lenguage hr{
+    width: 8rem;
+}
+.lenguage .grey{
+    padding: 3rem 0;
+    margin: 0;
+}
 /* utility */
-.sx,.small,.large,.sx div,.dx div,.col_30,.col_70,.col_50,.col_33,.col_25{
+.sx,.small,.large,.sx div,.dx div,.col_30,.col_70,.col_50,.col_33,.col_25,.col_20{
     float: left;
 }
 .blue_btn{
@@ -283,6 +306,9 @@ h1{
 .grey_btn{
     padding: .3rem 1rem;
     border: 1px solid black;
+}
+.col_20{
+    width: 20%;
 }
 .col_33{
     width: 33.3%;
