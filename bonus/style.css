@@ -93,7 +93,9 @@ h1{
     margin-bottom: 2rem;
 }
 .tab div{
-    height: 5rem;
+    height: 10rem;
+    border: 1px solid wheat;
+    color: white;
 }
 /***************** utility */
 .inline{
@@ -118,6 +120,21 @@ h1{
 }
 .left{
     float: left;
+}
+.green{
+    background-color: green;
+}
+.violet{
+    background-color: blueviolet;
+}
+.orange{
+    background-color: orange;
+}
+.blue{
+    background-color: blue;
+}
+.red{
+    background-color: red;
 }
 /* effettistica */
 .tendina li:hover{
