@@ -1,0 +1,90 @@
+/* genrali */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-width: 1440px;
+    font-family:'Open Sans',sans-serif;
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+/* header */
+header{
+    position: fixed;
+    height: 4rem;
+    width: 100%;
+    z-index: 100;
+}
+.logo a,.botton,.menu{
+    line-height: 4rem;
+}
+.logo img{
+    height: 2rem;
+    vertical-align: middle;
+    padding: 0 1rem;
+}
+
+.menu{
+    margin: 0 2rem;
+}
+header ul{
+    list-style: none;
+}
+/* tendina a scomparsa */
+.tendina{
+    display: none;
+}
+.principale:hover .tendina{
+    display: inline-block;
+}
+.icon2{
+    display: none;
+}
+.principale:hover .icon2{
+    display: inline-block;
+}
+.principale:hover .icon1{
+    display: none;
+}
+/* utility */
+.inline{
+    display: inline-block;
+}
+.grey_btn{
+    text-decoration: none;
+    font-size: .8rem;
+    color: black;
+    border: 1px solid grey;
+    padding: .3rem 1rem;
+}
+.right{
+    float: right;
+}
+.no_link{
+    text-decoration: none;
+    color: black;
+}
+/* effettistica */
+.tendina li:hover{
+    text-decoration: underline;
+    color: #217EF5;
+}
+.icon2{
+    animation: spin 2s linear infinite;
+}
+@keyframes spin {
+    0%{
+        transform: rotate(1turn);
+    }
+}
+.grey_btn:hover{
+    background-color: #217EF5;
+    color: white;
+    filter: brightness(70%) blur(5%);
+    
+}
