@@ -375,7 +375,7 @@ a{
 }
 
 /* effettistica */
-.b_bottom:hover{
+.b_bottom:hover,.b_bottom li:hover{
     border-bottom: 2px solid black;
 }
 .blue_btn:hover{
@@ -391,22 +391,25 @@ footer a:hover{
     background: lightgray;
     filter: drop-shadow(2px 4px 6px black);
 }
-/* #hyde{
-    width: 100%;
-    display: none;
-}
-#hyde:hover{
-    display: inline-block;
-} */
+
 #hyde ul{
     list-style: none;
     display: inline-block;
     width: 100%;
     background-color: white;
 }
-#hyde .nascondi{
+#hyde .nascondi,.nascondi{
     display: none;
 }
-#hyde .nascondi:hover{
+#hyde ul:hover .nascondi{
     display: inline-block;
+}
+.question ul{
+    list-style: none;
+}
+.principale ul:hover .nascondi{
+    display: inline-block;
+}
+.principale ul:hover .fa-chevron-down{
+    transform: rotate(180deg);
 }
