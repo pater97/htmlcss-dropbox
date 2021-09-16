@@ -391,3 +391,22 @@ footer a:hover{
     background: lightgray;
     filter: drop-shadow(2px 4px 6px black);
 }
+/* #hyde{
+    width: 100%;
+    display: none;
+}
+#hyde:hover{
+    display: inline-block;
+} */
+#hyde ul{
+    list-style: none;
+    display: inline-block;
+    width: 100%;
+    background-color: white;
+}
+#hyde .nascondi{
+    display: none;
+}
+#hyde .nascondi:hover{
+    display: inline-block;
+}
