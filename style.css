@@ -19,9 +19,9 @@ body{
     margin-top: 10rem;
     margin-bottom: 2rem;
 }
-/* html{
+html{
     scroll-behavior: smooth;
-} */
+}
 /******************
 header
 ***************** */
@@ -372,4 +372,22 @@ a{
 }
 .yellow{
     background-color: #FFD830;
+}
+
+/* effettistica */
+.b_bottom:hover{
+    border-bottom: 2px solid black;
+}
+.blue_btn:hover{
+    background-color: #217EF5;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+.circle:hover{
+    cursor: pointer;
+}
+.grey_btn:hover{
+    background: lightgray;
+    filter: drop-shadow(2px 4px 6px black);
 }
