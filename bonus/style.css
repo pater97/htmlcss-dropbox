@@ -177,9 +177,11 @@ h1{
     height: 80%;
     border: 1px solid lightgray;
 }
-.perche_dropbox .inline a{
+.Carica{
+    text-align: center;
+}
+.perche_dropbox .Carica a{
     color: black;
-
 }
 /***************** utility */
 .inline{
