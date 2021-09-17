@@ -113,7 +113,47 @@ h1{
 }
 /* video con testo a fianco */
 .video_txt{
-    background-color: lightgrey;
+    background-color: #f9f9f9;
+    padding: 3rem 0;
+}
+.video_txt article{
+    margin: 3rem 0;
+}
+.video_txt .grey{
+    padding-bottom: 1rem;
+    margin-right: 1rem;
+}
+.fa-play-circle,.fa-arrow-left,.fa-arrow-right{
+    position: absolute;
+    top: 50%;
+}
+.fa-play-circle{
+        font-size: 5rem;
+        left: 13rem;
+        top: 6rem;
+        color: white;
+}
+.fa-arrow-left{
+    left: -3rem;
+    font-size: 2rem;
+}
+.fa-arrow-right{
+    right: -3rem;
+    font-size: 2rem;
+}
+.video_txt article .col_50{
+    position: relative;
+}
+.video_txt img{
+    width: 100%;
+    filter: brightness(.8);
+}
+.video_txt article h2{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.video_txt .col_50:last-child{
+    padding: 1.5rem 2rem;
 }
 /***************** utility */
 .inline{
@@ -142,6 +182,9 @@ h1{
 }
 .col_33{
     width: 33.3%;
+}
+.col_50{
+    width: 50%;
 }
 .left{
     float: left;
@@ -193,4 +236,24 @@ h1{
 }
 .dati .col_33:hover{
     transform: scale(120%);
+}
+.video_txt .grey:hover{
+    color: black;
+    border-bottom: 3px solid black;
+    cursor: pointer;
+}
+.fa-play-circle:hover{
+    cursor: pointer;
+}
+.video_txt img:hover{
+    filter: brightness(1);
+}
+.video_txt .col_50:hover .fa-play-circle{
+    color: red;
+}
+.fa-arrow-right,.fa-arrow-left{
+    transition: all 1s;
+}
+.fa-arrow-right:hover,.fa-arrow-left:hover{
+    transform:scale(70%)
 }
