@@ -84,8 +84,6 @@ h1{
 }
 /* tabella aziende */
 .tab_society{
-    margin: 3rem auto;
-    width: 70%;
     text-align: center;
 }
 .tab_society h2{
@@ -96,6 +94,26 @@ h1{
     height: 10rem;
     border: 1px solid wheat;
     color: white;
+}
+/* dati */
+.dati{
+    margin-top: 4rem;
+}
+.dati .col_33{
+    padding: 0 2rem;
+}
+.dati .row{
+    margin: 0 -2rem;
+}
+.dati h2{
+    font-size: 2rem;
+}
+.dati h4{
+    margin: 1rem 0;
+}
+/* video con testo a fianco */
+.video_txt{
+    background-color: lightgrey;
 }
 /***************** utility */
 .inline{
@@ -108,6 +126,10 @@ h1{
     border: 1px solid grey;
     padding: .3rem 1rem;
 }
+.w70{
+    width: 70%;
+    margin:3rem auto;
+}
 .right{
     float: right;
 }
@@ -118,8 +140,14 @@ h1{
 .col_20{
     width: 20%;
 }
+.col_33{
+    width: 33.3%;
+}
 .left{
     float: left;
+}
+.grey{
+    color: grey;
 }
 .green{
     background-color: green;
@@ -156,4 +184,13 @@ h1{
     color: white;
     filter: brightness(70%) blur(5%);
     
+}
+.tab div:hover{
+    filter: brightness(0.5);
+}
+.dati .col_33{
+    transition: all 2s;
+}
+.dati .col_33:hover{
+    transform: scale(120%);
 }
